@@ -10,5 +10,5 @@ function myFun(){
     for(i in a ){
         console.log(a);
     }
-    
+
 }
