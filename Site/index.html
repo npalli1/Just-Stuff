@@ -10,9 +10,9 @@
             <div id="header"> 
                 <h1>Cortland Chat</h1>
             </div>
+            <hr>
             <div id="sidebar-list-conatiner">
                 <ul id="sidebar-list">
-                    <li>img</li>
                     <li><p class="sidebar-list-text">Nikhil Palli</p> <p class="sidebar-list-info">Name</p></li>
                     <li><p class="sidebar-list-text">678-488-3463</p> <p class="sidebar-list-info">Phone</p></li>
                     <li><p class="sidebar-list-text">Leasing Manager</p> <p class="sidebar-list-info">Position Applied For</p></li>
@@ -22,20 +22,50 @@
 
         <div id="mainbody" >
             <div id="message-container">
-                <div class="message-box">
-                    <h3>NP</h3>
-                    <p>message here</p>
+                <div class=message-row id="my-row">
+                    <div class="message-box" id="my-text">
+                        <div class="name-icon"><h3>NP</h3></div> 
+                        <p class = "message-text">How are you? I am letting you know that you have an interview tomorrow at 11:00 AM.</p>
+                    </div>
                 </div>
-                <div class="message-box">
-                    <h3>NP</h3> 
-                    <p>message here</p>
+                <div class=message-row id="their-row">
+                    <div class="message-box" id="their-text">
+                        <div class="name-icon"><h3>KP</h3></div> 
+                        <p class = "message-text">Im doing well! How are you?</p>
+                    </div>
                 </div>
+                <div class=message-row id="my-row">
+                    <div class="message-box" id="my-text">
+                        <div class="name-icon"><h3>NP</h3></div> 
+                        <p class = "message-text">Im good! So can you make it tomorrow?</p>
+                    </div>
+                </div>
+                <div class=message-row id="their-row">
+                    <div class="message-box" id="their-text">
+                        <div class="name-icon"><h3>KP</h3></div> 
+                        <p class = "message-text">Im doing well! How are you?</p>
+                    </div>
+                </div>
+                <div class=message-row id="my-row">
+                        <div class="message-box" id="my-text">
+                            <div class="name-icon"><h3>NP</h3></div> 
+                            <p class = "message-text">How are you? I am letting you know that you have an interview tomorrow at 11:00 AM.</p>
+                        </div>
+                    </div>
+                    <div class=message-row id="their-row">
+                        <div class="message-box" id="their-text">
+                            <div class="name-icon"><h3>KP</h3></div> 
+                            <p class = "message-text">Im doing well! How are you?</p>
+                        </div>
+                    </div>
             </div>
             <div id="text-container">
-                <input type="text" name="textbox" id="text-box">
-                <p>
+                <div id="text-input">
+                    <input type="text" name="textbox" id="text-box" placeholder="Type a Message...">
+                </div>
+                <div id="send-button">
                     <button>Send</button>
-                </p>
+                </div>
             </div>
         </div>
     </div>
