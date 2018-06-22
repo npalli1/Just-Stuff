@@ -1,0 +1,52 @@
+body{
+    background-color:#f5f5f5;
+    color: #3C3C3C;
+    font-family: 'century gothic';
+}
+#sidebar{
+    padding-top: 10px;
+    /*border: solid 1px #FF5A5F;*/
+    float: left; 
+    width: 20%;
+    height: 100%;
+}
+#header{
+    margin-bottom:90px;
+    margin-left: 5%;
+}
+
+h1{
+    font-size: 24pt;
+    font-weight: 100;
+}
+li{
+    margin-top: 20px;
+    list-style-type: none; 
+     
+}
+.sidebar-list-text{
+    font-weight: 200;
+    margin-bottom: 0px;
+    
+}
+.sidebar-list-info{
+    font-size: 10pt;
+    font-weight: bolder;
+    margin-top: 1px;
+}
+#mainbody{
+padding:100px;
+float: left;;
+width: auto;
+height: 100%;
+}
+#message-container{
+    border: solid;
+    padding:20px;
+    width:auto;
+    height:60%;
+}
+
+
+ 
+/* FF5A5F-pink  087E8B-turq*/
